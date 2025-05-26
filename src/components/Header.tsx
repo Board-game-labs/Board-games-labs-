@@ -39,12 +39,12 @@ const Header = () => {
               <h1 className="press text-[10px] text-[#FFFFFF]">Launch App</h1>
             </div>
           </Link>
-          <div className="flex w-[140px] border border-[#FF3D00] h-[40px] rounded-lg items-center p-2">
+          {/* <div className="flex w-[140px] border border-[#FF3D00] h-[40px] rounded-lg items-center p-2">
             <h1 className="press text-[10px] text-[#FF3D00] flex mx-auto">{address}</h1>
-          </div>
-          <div className="flex w-[140px] border border-[#FF3D00] h-[40px] rounded-lg items-center p-2">
+          </div> */}
+          {/* <div className="flex w-[140px] border border-[#FF3D00] h-[40px] rounded-lg items-center p-2">
             <button className="press text-[8px] text-center text-[#FF3D00] flex mx-auto">clear burners</button>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -58,12 +58,12 @@ const Header = () => {
               <h1 className="press text-[12px] text-[#FFFFFF]">Launch App</h1>
             </div>
           </Link>
-          <div className="flex w-full border border-[#FF3D00] h-[40px] rounded-lg items-center justify-center p-2">
+          {/* <div className="flex w-full border border-[#FF3D00] h-[40px] rounded-lg items-center justify-center p-2">
             <h1 className="press text-[12px] text-[#FF3D00]">{address}</h1>
-          </div>
-          <div className="flex w-full border border-[#FF3D00] h-[40px] rounded-lg items-center justify-center p-2">
+          </div> */}
+          {/* <div className="flex w-full border border-[#FF3D00] h-[40px] rounded-lg items-center justify-center p-2">
             <button className="press text-[12px] text-center text-[#FF3D00]">clear burners</button>
-          </div>
+          </div> */}
         </div>
       )}
     </div>

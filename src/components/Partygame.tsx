@@ -78,7 +78,7 @@ const Partygame = () => {
         {games.map((item, index) => {
           return (
             <div key={index} className="w-full p-1 sm:p-2 md:p-4">
-              <Link to={`/Game/${item.gameDetails}`}>
+              <Link to={item.gameDetails == "Tic tac toe" ? "https://sanmoku-tictactoe.vercel.app/" : `/Game/${item.gameDetails}`} className="w-full h-full" rel="noopener noreferrer" target="_blank">
                 <Gamecard imagesource={item.imgsource} gamedetails={item.gameDetails} />
               </Link>
             </div>
@@ -90,3 +90,4 @@ const Partygame = () => {
 }
 
 export default Partygame
+
